@@ -2,11 +2,13 @@
 import Header from '../components/Header.vue'
 import Guides from '../components/Guides.vue'
 import Footer from '../components/Footer.vue'
+import Chat from '../components/Chat.vue'
 </script>
 
 <template>
   <div class="container py-4 px-3 mx-auto">
     <Header />
+    <Chat />
 
     <h1>Build Bootstrap with Vue</h1>
     <div class="col-lg-8 px-0">
