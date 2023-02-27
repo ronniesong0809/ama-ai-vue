@@ -10,16 +10,16 @@
           </p>
           <p v-else>loading...</p>
         </div>
-        <form class="input-group">
+        <div class="input-group">
           <input type="text" class="form-control" v-model="message" />
           <button
             class="btn btn-outline-secondary"
-            type="submit"
+            type="button"
             v-on:click="ai"
           >
             submit
           </button>
-        </form>
+        </div>
       </div>
     </div>
   </div>
